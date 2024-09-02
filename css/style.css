@@ -1,0 +1,790 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  max-width: 1320px;
+}
+/* ========================================== */
+.navbar {
+  padding: 40px 0;
+}
+.nav-active {
+  color: #0250ed;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar-nav {
+  margin-left: 103px;
+}
+.nav-item {
+  margin-left: 17px;
+  margin-right: 17;
+}
+.nav-item {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  color: #ff4900;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 14px;
+  background: #fff6f3;
+  padding: 16px 30px;
+  flex-shrink: 0;
+}
+#banner-part {
+  padding: 54px 0 70px 0;
+}
+#img-1 {
+  position: relative;
+}
+#img2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px;
+}
+#banner-part .text-wrapper {
+  margin-left: 135px;
+}
+#banner-part .text-wrapper span {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 22px;
+}
+#banner-part .text-wrapper h1 {
+  color: #000;
+  font-family: Syne;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91.3%;
+  width: 521px;
+  padding: 34px 0 41px 0;
+}
+#banner-part .text-wrapper .title {
+  justify-content: space-between;
+  align-items: center;
+}
+#banner-part .text-wrapper .nav-btn {
+  padding: 16px 30px;
+  border-radius: 15px;
+  background: #f2f6ff;
+}
+#banner-part .text-wrapper p {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.3%;
+  width: 246px;
+}
+#banner-part .play {
+  text-align: center;
+  margin-top: 40px;
+}
+#banner-part .play .ply-btn {
+  font-size: 20px;
+  padding: 18px 21px;
+  color: #ffffff;
+  background-color: #0250ed;
+  border-radius: 50%;
+}
+#banner-part .play h5 {
+  color: #0c76ff;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+  margin-top: 17px;
+  margin-left: 11px;
+}
+#section-part {
+  padding-top: 147px 0 93px 0;
+}
+#section-part .title-p {
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+  text-align: center;
+}
+#section-part .logo-part {
+  text-align: center;
+  padding-top: 56px;
+}
+#section-part .logo-part img {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+#section-2 {
+  background-image: url(../images/banner-1\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 498px;
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+#section-2 .bo-wrapper {
+  width: 423px;
+  padding: 58px 38px 81px 70px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -22%;
+  left: 358px;
+}
+#section-2 .bo-wrapper h6 {
+  color: #000;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+}
+#section-2 .bo-wrapper h2 {
+  color: #000;
+  font-family: Syne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 91.3%;
+  padding: 38px 0 24px 0;
+}
+#section-2 .bo-wrapper p {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+}
+#section-2 .bo-wrapper .section-btn {
+  padding: 13px 27px;
+  border-radius: 10px;
+  background: #fff6f3;
+  width: 152px;
+  margin-top: 66px;
+}
+#section-2 .bo-wrapper .section-btn a {
+  color: #f6672a;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 91.3%;
+}
+#icon-part {
+  padding: 90px 0 90px 0;
+}
+#icon-part .icon-part-wrapper {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#icon-part .icon-wrapper {
+  padding: 25px 18px;
+  border-radius: 22px;
+  background: #e0eaff;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+#icon-part .icon-wrapper2 {
+  padding: 25px 18px;
+  border-radius: 22px;
+  background: #ffe5dc;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+#icon-part .icon-wrapper3 {
+  padding: 25px 18px;
+  border-radius: 22px;
+  background: #dffbe4;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+#icon-part .icon-wrapper4 {
+  padding: 25px 18px;
+  border-radius: 22px;
+  background: #fde5ff;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+#icon-part .icon-text h2 {
+  color: #000;
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 40px 0 23px 0;
+}
+#icon-part .icon-text p {
+  color: #2f2e2e;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 230px;
+}
+#info-part .title-info {
+  margin-top: 85px;
+  margin-left: 100px;
+}
+#info-part .title-info h6 {
+  color: #1e68ff;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+}
+#info-part .title-info p {
+  color: #000;
+  font-family: Syne;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91.3%;
+  width: 437px;
+  padding: 27px 0 38px 0;
+}
+#info-part .title-info h2 {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+  width: 420px;
+}
+#info-part .title-info .info-btn {
+  border-radius: 10px;
+  background: #f45c20;
+  width: 190px;
+  padding: 16px 17px;
+  margin: 55px 0 43px 0;
+}
+#info-part .title-info .info-btn a {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91.3%; /* 10.956px */
+}
+#banner-info {
+  background-color: #0145cd;
+  padding: 107px 0 85px 0;
+  width: 100%;
+}
+#banner-info .bannr-info-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#banner-info .bannr-info-wrapper h2 {
+  width: 241px;
+  color: #fff;
+  font-family: Syne;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91.3%;
+}
+#banner-info .bannr-info-wrapper p {
+  width: 512px;
+  color: #fff;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.3%; /* 25.614px */
+}
+#banner-info .bannr-info-wrapper .btn-banner-info {
+  padding: 10px 27px;
+  border-radius: 10px;
+  background: #fff;
+  width: 200px;
+}
+#banner-info .bannr-info-wrapper .btn-banner-info a {
+  color: #f45c20;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.3%; /* 25.614px */
+}
+#banner-info .card-part {
+  padding-top: 84px;
+}
+#banner-info .cart-text {
+  text-align: center;
+  padding: 40px 0 18px;
+}
+#banner-info .cart-text {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.3%;
+}
+#banner-info .cart-text p {
+  color: #05f;
+  text-align: center;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.3%;
+}
+
+
+
+#section-5{
+  margin: 93px 0 125px 0;
+}
+
+
+
+#section-5 .agun-tiltle{
+  padding-top: 16px;
+}
+
+
+#section-5 .agun-tiltle samp{
+  color: #000;
+font-family: "DM Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+margin-left: 10px;
+}
+
+#section-5 .agun-tiltle h2{
+  color: #000;
+font-family: Syne;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 91.3%;
+padding: 23px 0 37px 0; 
+}
+
+
+
+
+#section-5 .agun-tiltle p
+{
+  color: #000;
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 492px;
+}
+
+
+ 
+#section-5  .agun-tiltle  .btn-icon-wrapper{
+  padding: 16px 20px;
+  width: 198px;
+  border-radius: 10px;
+  background: #FFF6F3;
+  margin-top: 39px;
+}
+
+
+#section-5 .agun-tiltle  .btn-icon-wrapper a{
+color: #F57638;
+font-family: "DM Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+#section-5 .imag-wrapper .img-wrapper{
+  padding-right: 20px;
+}
+
+
+
+
+
+#section-6  .card-5{
+     padding: 33px;
+     width: 424px;
+     border-radius: 15px;
+     background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#section-6  .card-5 .card-title{
+  padding: 33px 0 23px 0;
+  color: #000;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.96px;
+}
+
+
+
+
+#section-6 .card-5 .card-body{
+  margin-left: 33px;
+}
+
+
+#section-6 .card-5 .card-text{
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px; 
+} 
+#section-6 .card-5 p{
+  color: #000;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.52px; 
+width: 257.96px;
+}
+
+
+
+
+
+#section-6 .card-5 h2{
+  color: #000;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.52px; 
+width: 297.045px;
+}
+#section-6  .card-5 a{
+  color: #004BE1;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px; 
+}
+#section-7{
+  margin: 138px 0 97px 0 ;
+  background: #000;
+  padding: 138px 171px 0 169px;
+} 
+
+#section-7 .text-movile{
+ margin: 59px 0 0 140px ;
+}
+
+#section-7 .text-movile h2{
+  color: #FFF;
+font-family: Syne;
+font-size: 41px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; 
+
+}
+
+
+#section-7 .text-movile p{
+  color: #FFF;
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.96px; 
+padding: 18px 0 22px 0;
+}
+
+
+#section-7 .text-movile input{
+  padding: 17px 0 17px 31px;
+  border-radius: 12px;
+  background: #FFF;
+  width: 369px;
+  border: none;
+  padding-right: 17px;
+}
+
+#section-7 .text-movile a {
+	padding: 15px 44px;
+	border-radius: 12px;
+	background: #F45C20;
+	width: 146.99px;
+	color: #FFF;
+	font-family: "DM Sans";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30.96px;
+	margin-left: 17px;
+}
+
+#section-7 .text-movile  h6{
+  color: #FFF;
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.96px;
+margin: 24px 0 0 37px;
+}
+
+#section-7 .text-movile  samp{
+  color: #0E54FF;
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.96px;
+text-decoration-line: underline;
+}
+
+
+#section-9 .input-part-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 58px 0 44px 0;
+}
+
+
+#section-9 .icon-wrapper {
+	padding: 21.56px;
+	border-radius: 22px;
+	background: #FEF3EF;
+	width: 100px;
+	text-align: center;
+	align-items: center;
+}
+
+
+#section-9  .input-text-wapper h2{
+  padding: 36px 0 5px 0;
+  color: #000;
+text-align: center;
+font-family: Syne;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px; 
+width: 606.679px;
+
+}
+
+#section-9 .input-text-wapper p{
+  color: #272727;
+text-align: center;
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.4px;
+width: 659px;
+}
+#section-9  .input-text-wapper h6{
+  color: #0256FF;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.4px; 
+  padding-top: 10;
+}
+
+
+
+
+#section-10{
+  padding: 120px 0 70px 0;
+}
+
+
+
+
+
+#section-10 .section--12 {
+	color: #000;
+	font-family: Syne;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 34.4px;
+	
+	margin-bottom: 44px;
+}
+
+#section-10  .card-wrapper .card-flex{
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 38px;
+}
+#section-10 .card-wrapper{
+  padding-top: 30px;
+}
+
+
+#section-10 .card-wrapper .card-flex h4{
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 141.176% */
+}
+
+#section-10 .card-wrapper .card-flex h5 {
+	color: #0256FF;
+	font-family: "DM Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-right: 17px;
+}
+#section-10  .h1-text {
+  border-radius: 4px;
+  background: #FEF7F4;
+padding: 16px;
+
+}
+
+#section-10  .h1-text a{
+  color: #F45C20;
+  font-family: Syne;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 218.182% */
+}
+
+
+#footer-part{
+  padding: 189px 33px;
+   background: linear-gradient(180deg, rgba(5, 55, 156, 0.93) 0%, rgba(0, 64, 193, 0.93) 100%);
+   border: 20px solid white;
+}
+
+#footer-part .logo-wapper{
+  justify-content: space-between;
+
+}
+
+
+
+
+#footer-part .logo-wapper .footer-content{
+  margin-left: 93px;
+}
+
+#footer-part .logo-wapper .footer-content h2{
+  color: #FFF;
+  font-family: Syne;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+#footer-part .footer-content p{
+  color: #FFF;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  width: 539.596px;
+}
+#footer-part .logo-wapper  .footer-icon {
+  padding: 17px 33px;
+  width: 237.62px;
+  border-radius: 12px;
+background: #F45C20;
+height: 57.488px;
+}
+
+
+#footer-part .logo-wapper   .footer-icon  a{
+  color: #FFF;
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+#footer-part  .copy{
+  color: #FFF;
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+padding-top: 58px;
+}
